@@ -1,0 +1,40 @@
+@import "../variable/variable.scss";
+
+/*container*/
+@mixin vert{
+    display: flex;
+    flex-direction: column;
+    background-color: $bgcolor1;
+}
+
+@mixin horizon{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin border{
+    border: none;
+    border-radius: 20px;
+}
+
+@mixin padding{
+    padding-left: 100px ;
+    flex-wrap: nowrap;
+}
+
+
+/*list et articles*/
+
+@mixin list{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*font*/
+@mixin font{
+    font-weight: 500;
+    font-family: 'Roboto+Slab';
+    color: $fontcolor;
+}

@@ -1,0 +1,35 @@
+@import "../mixin/mixin.scss";
+@import "../variable/variable.scss";
+
+h1{
+    font-size: 50px;
+    @include font;
+}
+
+h2{
+    font-size: 30px;
+    @include font;
+
+}
+
+h3{
+    font-size: 20px;
+    @include font;
+}
+
+p{
+    font-size: 25px;
+    @include font;
+}
+
+i{
+    font-size: 50px;
+    @include font
+}
+
+a,ul,li{
+    font-size: 25px;
+    @include font;
+    text-decoration: none;
+    list-style: none;
+}

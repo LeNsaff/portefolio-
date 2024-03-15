@@ -1,0 +1,53 @@
+            <section class="vert halwidth minigape ">
+                <div class="halfsize skillctn ">
+                    <h2 class="padding btmmargin">SKILLS</h2>
+                    <article class="horizon maxwidth gape ">
+                        <i class="fa-brands fa-html5"></i>
+                        <section class="horizon margesg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </section>
+                    </article>    
+
+                    <article class="horizon maxwidth gape">
+                        <i class="fa-brands fa-html5"></i>
+                        <section class="horizon margesg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </section>
+                    </article>  
+
+                    <article class="horizon maxwidth gape">
+                        <i class="fa-brands fa-html5"></i>
+                        <section class="horizon margesg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </section>
+                    </article>  
+
+                    <article class="horizon maxwidth gape">
+                        <i class="fa-brands fa-html5"></i>
+                        <section class="horizon margesg">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </section>
+                    </article>   
+                </div> 
+
+                <div class="vert">
+                    <h2>EXP</h2>
+                    <section class="vert minigape">
+                        <p>DIGITECHAFRICA à Libreville JUILLET 2022 - AOÛT 2022</p>
+                        <p>DIGITECHAFRICA à Libreville JUILLET 2022 - AOÛT 2022</p>
+                        <p>DIGITECHAFRICA à Libreville JUILLET 2022 - AOÛT 2022</p>
+                    </section>
+                </div>
+            </section>
