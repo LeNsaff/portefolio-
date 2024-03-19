@@ -135,7 +135,6 @@ main{
 
 .plist0{
     @include vert;
-    width: 100%;
     text-align: start; 
     margin-left: 80px;
     margin-top: 25px;
@@ -152,6 +151,11 @@ main{
         justify-content: left;
         gap: 10px;
     }
+}
+
+#plist2{
+    width: 75%;
+    transform: rotateY(0deg)
 }
 
 .btnctn{
