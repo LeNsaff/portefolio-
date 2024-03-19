@@ -161,11 +161,25 @@ main {
   transform: rotateY(0deg);
 }
 
+#plist1 {
+  width: 25%;
+}
+
+#plist3 {
+  width: 25%;
+}
+
 .btnctn {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.btnp {
+  cursor: pointer;
+  height: 10px;
+  border-radius: 50px;
 }
 
 .aside2 {
