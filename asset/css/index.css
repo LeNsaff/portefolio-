@@ -316,6 +316,10 @@ a, ul, li {
   height: 100px;
 }
 
+.img {
+  transform: rotateY(180deg);
+}
+
 .imgskill {
   height: 80px;
   object-fit: cover;
