@@ -110,13 +110,17 @@ main{
 
 .list1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: right;
     width: 100%;
     margin: 0 0 0 0;
     text-align: left;
     gap: 40px;
 
+}
+
+.jsp2{
+    @include horizon;
 }
 
 .plist{
