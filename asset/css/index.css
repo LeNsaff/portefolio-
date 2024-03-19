@@ -133,16 +133,35 @@ main {
   text-align: start;
   margin-left: 80px;
   margin-top: 25px;
+  transform: rotateY(80deg);
+  transform-style: preserve-3d;
 }
-.plist p {
+
+.plist0 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  text-align: start;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+.plist0 p {
   font-size: 20px;
   margin-top: 0;
 }
-.plist section {
+.plist0 section {
   display: flex;
   flex-direction: row;
   justify-content: left;
   gap: 10px;
+}
+
+.btnctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
 .aside2 {
@@ -287,11 +306,11 @@ a, ul, li {
 
 .imgp {
   margin-left: -30px;
-  width: 100%;
+  width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 20px;
-  transform: rotateY(45deg);
+  box-shadow: 10px 10px 10px;
 }
 
 .decoskill {

@@ -26,11 +26,12 @@
 
 .imgp{
     margin-left: -30px;
-    width: 100%;
+    width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
-    transform: rotateY(45deg);    
+    box-shadow: 10px 10px 10px; 
+  
 }
 
 .decoskill{

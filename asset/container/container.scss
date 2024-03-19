@@ -129,6 +129,16 @@ main{
     text-align: start; 
     margin-left: 80px;
     margin-top: 25px;
+    transform: rotateY(80deg);
+    transform-style: preserve-3d;
+}
+
+.plist0{
+    @include vert;
+    width: 100%;
+    text-align: start; 
+    margin-left: 80px;
+    margin-top: 25px;
 
 
     p{
@@ -143,6 +153,13 @@ main{
         gap: 10px;
     }
 }
+
+.btnctn{
+    @include horizon;
+    justify-content: center;
+    width: 100%;
+}
+
 
 .aside2{
     display: flex;
