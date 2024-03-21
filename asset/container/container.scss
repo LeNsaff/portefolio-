@@ -70,6 +70,7 @@ main{
     display: flex;
     flex-direction: column;
     text-align: right;
+    height: min-content;
     width: 100%;
     margin: 0 0 0 0;
     text-align: left;
@@ -80,12 +81,12 @@ main{
 .ctnskill{
     display: flex;
     flex-direction: row;
-    gap: 300px;
 }
 
 .jsp{
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 50px;
     width: 100%
 }
@@ -111,11 +112,10 @@ main{
 .list1{
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     width: 100%;
     margin: 0 0 0 0;
-    text-align: left;
-    gap: 40px;
+    gap: 30px;
 
 }
 
@@ -177,6 +177,9 @@ main{
     height: 10px;
     border-radius: 50px;
 }
+
+
+
 
 .aside2{
     display: flex;
