@@ -24,6 +24,7 @@ header{
 
 main{
     gap: 40px;
+    padding: 0px 10px 0px 10px;
 }
 
 .main{
@@ -68,19 +69,19 @@ main{
 
 .list2{
     display: flex;
-    flex-direction: column;
-    text-align: right;
+    flex-direction: row;
     height: min-content;
     width: 100%;
-    margin: 0 0 0 0;
-    text-align: left;
-    gap: 30px;
+    padding: 0 auto 0 auto;
 
 }
 
 .ctnskill{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 45%;
+    gap: 30px;
+    text-align: center;
 }
 
 .jsp{
@@ -88,7 +89,14 @@ main{
     flex-direction: column;
     text-align: center;
     gap: 50px;
-    width: 100%
+    width: 45%;
+
+    a{
+        height: 200px;
+        width: 40%;
+        object-fit: fill;
+        margin-left: 150px;
+    }
 }
 
 .sklist{
@@ -121,6 +129,7 @@ main{
 
 .jsp2{
     @include horizon;
+    width: 90%
 }
 
 .plist{
