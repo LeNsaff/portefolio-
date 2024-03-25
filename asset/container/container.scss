@@ -123,7 +123,9 @@ main{
     text-align: center;
     width: 100%;
     margin: 0 0 0 0;
-    gap: 30px;
+    gap: 0px;
+    background-color: #fcfcfc;
+    border-radius: 20px;
 
 }
 
@@ -137,16 +139,16 @@ main{
     width: 100%;
     text-align: start; 
     margin-left: 80px;
-    margin-top: 25px;
     transform: rotateY(80deg);
     transform-style: preserve-3d;
+    background-color: #fcfcfc;
 }
 
 .plist0{
     @include vert;
     text-align: start; 
     margin-left: 80px;
-    margin-top: 25px;
+    background-color: #fcfcfc;
 
 
     p{
@@ -161,6 +163,14 @@ main{
         gap: 10px;
     }
 }
+
+.gith{
+    text-align: start; 
+    margin-left: 80px;
+    margin-top: 25px;
+    background-color: #fcfcfc;
+}
+
 
 #plist2{
     width: 75%;
@@ -239,10 +249,10 @@ main{
 footer{
     justify-content: end;
     text-align: left;
-    border: solid black;
     border-radius: 20px 20px 0px 0px;
     height: 80px;
     padding: 0px 5px 35px 5px;
+    background-color: #fcfcfc;
 }
 
 .footerlist{
